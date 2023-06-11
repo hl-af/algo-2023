@@ -44,12 +44,6 @@ public class ReverseString {
 
     }
 
-    /**
-     * LeetCode541. K个⼀组反转
-     * @param chars
-     * @param k
-     * @return
-     */
     public String Kreverse(String chars, int k) {
 
         if (chars == null || chars.length() == 0 || k == 0) {
