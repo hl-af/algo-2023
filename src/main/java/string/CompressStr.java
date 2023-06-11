@@ -33,7 +33,7 @@ public class CompressStr {
                         chars[write++] = (char) (length % 10 + '0'); // 数字转换字符数的写法
                         length = length / 10;
                     }
-                    reverseArray(chars, ancor, write - 1);
+                    reverseArray(chars, ancor, write - 1); //
                 }
                 left = read + 1;
             }
