@@ -1,11 +1,10 @@
 package tree;
 
-import com.sun.source.tree.ArrayAccessTree;
 import org.junit.Test;
 
 import java.util.*;
 
-public class LevleScanTree {
+public class LevelScanTree {
 
 
     /**
@@ -61,6 +60,7 @@ public class LevleScanTree {
 
             List<Integer> level = new LinkedList<>();
             int length = queue.size();
+            // 清理节点出队后，剩下的数据
             for (int i = 0; i < length; i++) {
                 TreeNode temp = queue.poll();
                 if (temp.left != null) {
